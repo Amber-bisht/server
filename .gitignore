@@ -1,0 +1,22 @@
+# node modules (don’t commit dependencies)
+node_modules/
+
+# environment variables
+.env
+
+# logs
+*.log
+logs/
+npm-debug.log*
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# build output (optional, if you're building)
+dist/
+build/
